@@ -1,0 +1,13 @@
+# Road Anomaly Detection Dataset (N-RDD2024 + SVRDD)
+# Resolution: 640x352 (width x height)
+path: D:\Road-Anomaly-Detector\data\calibration
+train: train/images
+val: val/images
+test: test/images
+
+nc: 3
+names: ['pothole', 'manhole', 'crack']
+
+# 0: Pothole
+# 1: Manhole
+# 2: Crack (longitudinal + transverse + alligator)

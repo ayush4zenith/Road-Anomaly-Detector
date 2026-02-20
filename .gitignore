@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+dist/
+build/
+.venv/
+venv/
+*.so
+
+# Testing / caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Dataset (too large for GitHub)
+data/calibration/train/
+data/calibration/val/
+data/calibration/test/
+
+# Sample videos (large binary)
+data/sample_videos/
+
+# Training runs
+runs/
+
+# Inference outputs (generated locally)
+outputs/
+outputs_test/
+outputs_retest/
+
+# Calibration data artifacts
+*.npy
+
+# Temporary/test scripts
+run_test_inference.py
+tmp_*
+
+# Build guide (internal notes)
+buildGuide.md
+
+# Retest artifacts
+retest_results.txt
