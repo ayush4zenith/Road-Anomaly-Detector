@@ -7,7 +7,7 @@ Built for the **Arm Edge AI** project — runs entirely on CPU at **≥5 FPS** w
 ## Features
 
 - **YOLOv5n** trained on the N-RDD2024 dataset (potholes, manholes, cracks)
-- **TFLite FP16** quantized model — 4.94 MB, optimized for Arm Cortex-A72
+- **TFLite FP16** quantized model — 4.90 MB, optimized for Arm Cortex-A72
 - **Real-time inference** on Raspberry Pi 4B at ~8-10 FPS (640×352)
 - **Docker deployment** with Python 3.10 (Pi OS compatibility)
 - **Async logging** — CSV, JSON-Lines, annotated frames, video clips
@@ -60,7 +60,7 @@ docker run --rm --device /dev/video0 -v ./outputs:/app/outputs road-anomaly \
 | Metric | Value |
 |:--|:--|
 | Model | YOLOv5n (FP16 TFLite) |
-| Model size | 4.94 MB |
+| Model size | 4.90 MB |
 | Input resolution | 640 × 352 |
 | Inference time | ~75-140ms per frame |
 | FPS | ~8-10 FPS on Pi 4B |
